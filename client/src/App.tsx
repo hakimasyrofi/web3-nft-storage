@@ -5,7 +5,7 @@ import Web3 from 'web3';
 import axios from 'axios';
 
 const ABI  = require('./abi.json');
-const contractAddress = '0x1F65c807d512A49854c246b7568E48D5519b2d38';
+const contractAddress = '0x3ecEde80c1E0f6C2D073A2a7f6B6BA390dF0332f';
 const web3 = new Web3(window.ethereum);
 const NFTContract = new web3.eth.Contract(ABI, contractAddress);
 const fileName = '1.png' //file in folder server.js
