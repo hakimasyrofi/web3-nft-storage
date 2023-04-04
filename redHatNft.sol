@@ -17,7 +17,7 @@ contract redHatNft is ERC721, ERC721URIStorage, ERC721Enumerable, Ownable {
 
     uint256 public rewards = 500;
 
-    constructor() ERC721("MyToken", "MTK") {}
+    constructor() ERC721("redHatNft", "RHNFT") {}
 
     function _baseURI() internal pure override returns (string memory) {
         return "https://";
