@@ -7,10 +7,23 @@
   pointer-events: none;
 }
 
-@media (prefers-reduced-motion: no-preference) {
+/* @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
   }
+} */
+
+.button-mint {
+  background-color: white;
+  color: black;
+  padding: 5px;
+  padding-right: 5px;
+  padding-left: 5px;
+  margin-bottom: 10px; 
+}
+
+.nft-image {
+  margin: 5px;
 }
 
 .App-header {

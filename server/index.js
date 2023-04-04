@@ -25,6 +25,9 @@ app.post('/storeImage', async (req, res) => {
         res.send({ cid: '' });
       }
     }
+    else {
+      console.log("API Token empty");
+    }
 });
     
 
